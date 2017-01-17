@@ -1,0 +1,209 @@
+@import url('http://fonts.googleapis.com/css?family=Roboto');
+
+
+
+/* Modyfikacje strony gminy */
+.content {
+    height: auto !important;
+}
+
+#tour_rss_feed li{list-style: none !important}
+
+div.tour_rss_item a:after {
+    border: medium none !important;
+}
+
+/* ------------------------*/
+
+/* Archiwum */
+
+
+div.tour_rss_showHideArchive {
+    display:none !important;
+    background: #e1e1e1 !important;
+}
+
+div.tour_rss_showHideArchive  .tour_pelnyOpis, .tour_zwin {background: rgba(0, 0, 0, 0) linear-gradient(to top,#e1e1e1 , rgba(255, 255, 255, 1) 39%, rgba(255, 255, 255, 0) 100%) repeat scroll 0 0 !important;}
+
+li.tour_rss_itemIsArchive {
+    color: red;
+    text-align: center;
+    padding: 10px;
+}
+
+/* ------------------------*/
+
+
+/* Nag³owek i nasze logo */
+
+.tour_rss_logo {
+    margin-bottom: 25px;
+}
+
+/* ---------- */
+
+/* Tytu³ wydarzenia */
+
+.tour_rss_under_title {}
+.tour_rss_under_title img {
+    margin-left: 20px;
+    height: 35px;
+}
+
+/* ---------- */
+
+
+div.tour_rss_item li {
+    list-style: outside none none !important;
+}
+div.tour_rss_item {
+    background: #f9f9f9 none repeat scroll 0 0;
+    box-shadow: 2px 2px 4px #cfcfcf;
+    display: inline-block;
+    font-family: "Roboto",sans-serif;
+    margin: 10px 0;
+    padding: 8px;
+    text-align: left;
+    width: 98%;
+}
+div.tour_rss_title{
+    border-left: 2px solid;
+    color: #0088cc;
+    font-size: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+    text-transform: uppercase;
+		text-shadow: -1px 1px 1px #a6a6a6;
+}
+div.toue_rss_imageAndInfo {
+    border-bottom: 1px solid #e2e2e2;
+    box-shadow: 0 1px 0 #fff;
+    display: inline-block;
+    margin: 20px 0;
+    width: 100%;
+}
+div.toue_rss_imageAndInfo div {
+    display: inline-block;
+}
+
+
+/* Zdjêcie */
+
+.tour_rss_itemImage {
+    border: 6px solid #ffffff;
+    box-shadow: 4px 5px 21px rgba(50, 50, 50, 0.55);
+    float: left;
+    margin-right: 15px;
+    max-height: 260px;
+    overflow: hidden;
+    position: relative;
+    transform: rotate(-2deg);
+}
+.tour_rss_itemImage i {
+    display: none;
+    left: 98px;
+    position: absolute;
+    top: 112px;
+    transform: translate(-45%, -45%);
+}
+.tour_rss_itemImage:hover img {
+    transition: all 400ms ease-in 0s;
+}
+.tour_rss_itemImage:hover img {
+    opacity: 0.7;
+}
+.tour_rss_itemImage:hover i {
+    color: #fff;
+    display: block;
+    font-size: 72px;
+    text-shadow: 3px 2px 5px #000;
+    z-index: 500;
+}
+
+/* ---------- */
+
+div.tour_rss_itemInfo {
+}
+div.tour_rss_itemInfo li {
+    font-size: 15px;
+    margin: 10px 0;
+}
+div.tour_rss_itemInfo li span {
+    color: #000;
+    display: inline-block;
+    width: 75px !important;
+}
+.tour_rss_itemDate, .tour_rss_itemHour {
+    color: red;
+}
+.tour_rss_itemAdress {
+}
+.tour_rss_itemTickets {
+}
+.tour_rss_itemHour {
+}
+div.tour_rss_item {
+}
+div.K2FeedImage {
+}
+
+
+/* Opis */
+
+div.tour_rss_itemFulltext {
+    color: #454545 !important;
+    font-size: 16px !important;
+    font-style: normal;
+    line-height: 22px;
+    text-align: justify;
+}
+
+.tour_pelnyOpis, .tour_zwin {
+    background: rgba(0, 0, 0, 0) linear-gradient(to top,#f9f9f9 , rgba(255, 255, 255, 1) 39%, rgba(255, 255, 255, 0) 100%) repeat scroll 0 0;
+    margin-top: -33px;
+    padding: 55px 0 0;
+    position: sticky;
+    text-align: center;
+}
+
+.tour_pelnyOpis p, .tour_zwin p {
+    border: 1px solid #e2e2e2;
+    box-shadow: 0 1px 0 #fff;
+    padding: 5px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.tour_pelnyOpis:hover, .tour_zwin:hover {color:red;text-decoration:none !important}
+
+/* ---------- */
+
+/* Przyciski na dole */
+
+.tour_rss_buttons {
+    margin: 20px 0 10px;
+		text-align: right;
+}
+.tour_rss_buttons li {
+    display: inline-block;
+    padding: 13px 0;
+}
+.tour_rss_buttons li a, input {
+    border: 1px solid;
+    color: #0088cc;
+    font-size: 15px;
+    margin-right: 10px;
+    padding: 10px;
+		box-shadow: -6px -8px 20px -21px inset;
+    -webkit-transition: all 400ms ease-in;
+    -moz-transition: all 400ms ease-in;
+    -ms-transition: all 400ms ease-in;
+    -o-transition: all 400ms ease-in;
+    transition: all 400ms ease-in;
+}
+.tour_rss_buttons li a:hover {
+    color:red;
+    text-decoration: none !important;
+}
+
+/* ---------- */
